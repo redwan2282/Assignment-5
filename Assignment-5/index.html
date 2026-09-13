@@ -3,11 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="stylesheet" href="./style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>assignment-5</title>
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
-    <div id="root"></div>
+  <body class="bg-white">
+
+
+  <header class="bg-[#F5F5F5]">
+  <nav class="sticky top-0 flex justify-between px-16 py-4 max-w-screen m-auto">
+    <div>
+      <img src="./src/assets/logo-text.png" alt="Dev Stack" class="h-8">
+    </div>
+
+    <div class="flex gap-8 items-center text-gray-500 font-medium">
+      <a href="" class="text-[#E60067]">Home</a>
+      <a href="" class="hover:text-black">Technologies</a>
+      <a href="" class="hover:text-black">Projects</a>
+      <a href="" class="hover:text-black">About</a>
+      <a href="" class="hover:text-black">Contact</a>
+    </div>
+
+    <div class="flex items-center gap-8">
+      <a href="" class="text-gray-400 font-medium hover:text-black">Sign In</a>
+      <button class="bg-[#EC4899] text-white px-6 py-2 rounded-full font-medium">
+        SignUp
+      </button>
+    </div>
+
+  </nav>
+
+</header>
+
+
+    <main>
+      <div id="root"></div>
+    </main>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
