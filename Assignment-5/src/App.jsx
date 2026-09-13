@@ -124,7 +124,7 @@ function App(){
                       </div>
                     </div>
                     <button onClick={()=>handleRemoveSingle(item.id)} className="text-gray-400 px-[8px]">
-                      ✗
+                      ×
                     </button>
                   </div>
                 ))}
