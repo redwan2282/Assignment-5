@@ -22,7 +22,7 @@ function App(){
   setSelectedStack(newStack); 
 };
 
-  //zei item select kora hobe seta remove kora
+
   const handleRemoveSingle=(id)=>{
   const updated=selectedStack.filter((item)=>{
     return item.id!==id;
@@ -31,7 +31,7 @@ function App(){
   setSelectedStack(updated);
   };
 
-  //sobgula item eki sathe remove kora
+
   const handleRemoveAll=()=>{
     setSelectedStack([]);
   };
